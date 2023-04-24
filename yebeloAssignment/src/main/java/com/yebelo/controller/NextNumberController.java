@@ -29,14 +29,7 @@ public class NextNumberController {
 		
 	}
 	
-	
-	 //categoryValue categoryValue = ((com.model.categoryValue) categoryValue).getCategoryValueById(id);
-//	    if (categoryValue == null) {
-//	        throw new categoryValueException("CategoryValue not found for this id :: " + id);
-//	    }
-//	    NumberResponse response = new NumberResponse(categoryValue.getValue(), 0);
-//	    return ResponseEntity.ok().body(response);
-		//numService.
+
 
 }
 
