@@ -1,4 +1,4 @@
-package com.exception;
+package com.yebelo.exception;
 
 public class categoryValueException extends RuntimeException {
     

@@ -1,4 +1,4 @@
-package com.model;
+package com.yebelo.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -19,12 +19,12 @@ public class categoryValue {
   private String categoryCode;
 
   @Column(name = "value")
-  private int value;
+  private Long value;
 
   // Default constructor required by JPA
   public categoryValue() {}
 
-  public categoryValue(String categoryCode, int value) {
+  public categoryValue(String categoryCode, Long value) {
     this.categoryCode = categoryCode;
     this.value = value;
   }
@@ -46,12 +46,14 @@ public class categoryValue {
     this.categoryCode = categoryCode;
   }
 
-  public int getValue() {
+  public Long getValue() {
     return value;
   }
 
-  public void setValue(int value) {
+  public void setValue(Long value) {
     this.value = value;
   }
 
 }
+
+

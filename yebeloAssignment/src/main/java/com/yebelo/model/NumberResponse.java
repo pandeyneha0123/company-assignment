@@ -1,4 +1,4 @@
-package com.model;
+package com.yebelo.model;
 
 public class NumberResponse {
     private int oldValue;
