@@ -1,0 +1,29 @@
+ Decision.txt file for Rest API to fetch next available number
+
+Design Pattern:
+For this Rest API, we have used the following design patterns:
+
+Factory Design Pattern:
+The Factory design pattern is used for creating a new instance of the DAO implementation classes. It is used in the Service implementation classes to create the DAO implementation classes, and this approach ensures that the Service implementation classes are decoupled from the actual implementation classes of the DAO.
+
+Singleton Design Pattern:
+The Singleton design pattern is used for creating a single instance of the database connection. It ensures that only one instance of the database connection is created and shared by all the threads accessing the database.
+
+Builder Design Pattern:
+The Builder design pattern is used for creating the response objects that contain the OldValue and NewValue of the fetched and updated numbers. It provides a flexible way to create objects with complex attributes and allows the client code to specify only the required attributes.
+
+Model-View-Controller (MVC) Design Pattern:
+The REST API follows the Model-View-Controller (MVC) architecture pattern, where the Model is the data layer, the View is the presentation layer, and the Controller is the business logic layer. The Controller receives the requests from the client, fetches the data from the Model, processes it, and sends it back to the client in the View format.
+
+Database schema:
+The database schema consists of a single table named category_values, which contains the following columns:
+
+id (primary key, auto-increment)
+category_code (varchar(255))
+value (int)
+The category_code column stores the code for the category, and the value column stores the last fetched number for the given category.
+
+Unit testing:
+Unit testing is performed using the JUnit testing framework. The Service implementation classes are tested for their functionality, and the DAO implementation classes are tested for their CRUD operations on the database.
+
+Overall, the Rest API to fetch the next available number follows the best practices for creating a scalable, reliable, and efficient API.
