@@ -1,7 +1,8 @@
 REST API for Fetching and Updating Next Number
 
 Introduction:
-This REST API is developed to provide a service for fetching and updating the next available number based on the Category Code provided as input. The API is designed to maintain data persistence using a database so that the numbers are permanently stored even if the application is restarted.
+This REST API is developed to provide a service for fetching and updating the next available number based on the Category Code provided as input. 
+The API is designed to maintain data persistence using a database so that the numbers are permanently stored even if the application is restarted.
 
 Minimal Usage Guide:
 
@@ -30,4 +31,6 @@ Table Name: CategoryValue
 Columns: CategoryCode (VARCHAR), Value (INT)
 
 Conclusion:
-This REST API provides a service for fetching and updating the next available number based on the Category Code provided as input. The API maintains data persistence using a database so that the numbers are permanently stored even if the application is restarted. The system is robust and tested using unit testing.
+This REST API provides a service for fetching and updating the next available number based on the Category Code provided as input. 
+The API maintains data persistence using a database so that the numbers are permanently stored even if the application is restarted. 
+The system is robust and tested using unit testing.
