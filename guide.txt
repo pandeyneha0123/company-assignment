@@ -1,0 +1,36 @@
+REST API for Fetching and Updating Next Number
+
+Introduction:
+This REST API is developed to provide a service for fetching and updating the next available number based on the Category Code provided as input. 
+The API is designed to maintain data persistence using a database so that the numbers are permanently stored even if the application is restarted.
+
+Minimal Usage Guide:
+
+To fetch the next available number, use the following endpoint: http://localhost:8080/FetchNextNumber/
+To update the next available number, provide the Category Code in JSON format using the endpoint: http://localhost:8080/UpdateNextNumber/
+The API introduces a delay of 5 seconds overall to simulate other processing while calculating the next number.
+The outcome of the API is unique for multi-users executing it simultaneously.
+Features Implemented:
+
+FetchNextNumber API endpoint: This API fetches the available number and the next number based on the Category Code provided as input in JSON format.
+UpdateNextNumber API endpoint: This API updates the next available number based on the Category Code provided as input in JSON format.
+Data persistence: The API maintains data persistence using a database so that the numbers are permanently stored even if the application is restarted.
+Unit Testing: The system is tested to ensure that it is robust.
+Decisions Taken:
+
+To maintain data persistence, a database is used to store the numbers permanently.
+To calculate the next available number, a delay of 5 seconds overall is introduced to simulate other processing.
+To ensure uniqueness for multi-users executing the API simultaneously, synchronization is used.
+Additional Features Implemented:
+None.
+
+Database Schema:
+The following schema is used for the database:
+
+Table Name: CategoryValue
+Columns: CategoryCode (VARCHAR), Value (INT)
+
+Conclusion:
+This REST API provides a service for fetching and updating the next available number based on the Category Code provided as input. 
+The API maintains data persistence using a database so that the numbers are permanently stored even if the application is restarted. 
+The system is robust and tested using unit testing.
