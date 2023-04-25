@@ -3,12 +3,12 @@ this repository is about yebelo assignment for java developer
 
 
 # tech stack used
-java
-maven
-springboot
-mysql
-jdbc
-spring
+  java
+  maven
+  springboot
+  mysql
+  jdbc
+  spring
 
 
 # Installation & Run
@@ -18,7 +18,7 @@ spring
 ```
     server.port=8088
 
-    spring.datasource.url=jdbc:mysql://localhost:3306/easyapp;
+    spring.datasource.url=jdbc:mysql://localhost:3306/yebelo;
     spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
     spring.datasource.username=root
     spring.datasource.password=root
