@@ -1,4 +1,5 @@
-# company-assignment
+# purpose of the project
+
 The purpose of this project is to create a Rest API that fetches the next available number based on a category code, following certain rules such as ensuring the sum of the individual digits is 1 and introducing a delay in processing. The API must be able to handle multiple concurrent requests and ensure that the outcome is unique. The project also aims to incorporate important non-functional features such as data persistence in a database, unit testing, and Git usage for version control. The ultimate goal is to demonstrate the ability to develop a robust and reliable API using Java and Spring Boot, while following best practices in software development.
 
 
