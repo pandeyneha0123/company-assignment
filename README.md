@@ -1,3 +1,4 @@
+# Rest API that fetches the next available number based on a category code
 
 # purpose of the project
 
