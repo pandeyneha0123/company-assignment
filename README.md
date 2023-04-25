@@ -2,13 +2,15 @@
 this repository is about yebelo assignment for java developer
 
 
-# tech stack used
-  java
-  maven
-  springboot
-  mysql
-  jdbc
-  spring
+# Tech Stack
+- Java
+- Hibernate
+- Spring Framework
+- Spring Boot
+- Spring Data JPA
+- MySQL
+- Maven
+- Postman
 
 
 # Installation & Run
